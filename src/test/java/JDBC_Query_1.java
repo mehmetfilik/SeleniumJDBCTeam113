@@ -55,6 +55,9 @@ public class JDBC_Query_1 {
 
         String query = "SELECT * FROM heallife_hospitaltraining.staff";
         ResultSet rs = st.executeQuery(query);
+        // MySQL'den sonuclari ResultSet>> Set olarak alir
+        // ResultSet : icerisinde index yapisi barindirmayan ve
+        // data depolanmasina imkan taniyan bir collection turudur
 
         rs.next();
         System.out.println(rs.getString("name"));
