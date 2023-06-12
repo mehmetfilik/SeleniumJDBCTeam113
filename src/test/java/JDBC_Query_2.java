@@ -38,3 +38,12 @@ public class JDBC_Query_2 {
 
     }
 }
+/*
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mehmetfilik/JDBCTeam113.git
+git push -u origin main
+ */
